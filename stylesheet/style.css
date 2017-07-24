@@ -1,0 +1,1213 @@
+/* CSS Document */
+
+/************************************/
+/*	Project Name : Digital Profile	*/	  
+/*	Start Data: 20/Feb/2012 		*/	  
+/************************************/
+
+/* Document viewer */
+#document-preview {
+    float: left;
+    margin-left:320px;
+}
+
+
+/* Popup Form Design */
+.label{
+	float:left; 
+	width:130px;
+	height:35px;
+	margin-left:5px;
+	text-align:right;
+	}
+	
+.data{
+	float:right;
+	width:237px;
+	height:35px;
+	margin-right:5px;
+	text-align:left;
+	}
+	
+.border{
+	height:2px;
+	background-color:#00CCFF;
+	width:363px;
+	margin-left:30px;
+	}
+	
+.AddLabel{
+	float:left; 
+	width:110px;
+	height:35px;
+	margin-right:15px;
+	text-align:right;
+	}
+	
+.AddData{
+	float:right;
+	width:220px;
+	height:35px;
+	margin-right:5px;
+	padding-right:10px;
+	text-align:left;
+	}
+	
+.AddLabeln{
+	float:left; 
+	width:130px;
+	height:32px;
+	padding-top:8px;
+	margin-right:15px;
+	text-align:right;
+	color:#777;
+	font-family:Arial;
+	font-size:13px;
+	}
+	
+.AddDatan{
+	float:left;
+	width:450px;
+	height:40px;
+	}	
+.InputBox{
+	padding:8px;
+	border:1px solid #AAA;
+	border-radius:12px;
+	-moz-border-radius:12px;
+	width:400px;
+	}
+	
+.SmallBox{
+	float:left;
+	padding:8px;
+	border:1px solid #AAA;
+	border-radius:12px;
+	-moz-border-radius:12px;
+	width:126px;
+	margin-left:17px;
+	}
+.Too{
+	float:left;
+	width:16px;
+	margin-left:10px;
+	margin-right:7px;
+	padding-top:4px;
+	height:40px;
+	font-family:Arial;
+	font-size:13px;
+	color:#777;
+	}
+
+.Current{
+	float:left;
+	width:80px;
+	padding-top:4px;
+	font-family:Arial;
+	font-size:13px;
+	color:#777;
+	}
+	
+	
+/* Show/hide */	
+.switch{
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:none;
+	color:#999999;
+	}
+	
+#AllTitle{
+	border-radius:8px;
+	-moz-border-radius:8px;
+	width:180px;
+	border:1px solid #DDD;
+	padding:5px;
+	}
+
+#TemplateName{
+	border-radius:8px;
+	-moz-border-radius:8px;
+	width:210px;
+	border:2px solid #555;
+	padding:5px;
+	margin-left:12px;
+	}	
+.switch1{
+	font-family:Arial;
+	font-size:10px;
+	font-weight:bold;
+	font-style:normal;
+	text-decoration:none;
+	color:#999999;
+	}	
+p{
+	text-align:left;
+	margin:0px;
+	}
+	
+body{
+	background-color:#FFF;
+	font-family:helvetica, arial, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	color:#000;
+	line-height:1.6em;
+	text-align:center;
+	}
+	
+/* Main Container */	
+#MainContainer{
+	background-color:#FCFCFC;
+	min-height:1500px;
+	width:1100px;
+	margin:0 auto;
+	}
+	
+/* Main Container Body */	
+#ContainerBody{
+	background-color:#FCFCFC;
+	min-height:1500px;
+	width:1100px;
+	margin-bottom:50px;
+	border:1px solid #EDEDED;
+	}
+
+#header{
+	background:url(../images/header.png) no-repeat;
+	height:77px;
+	width:1050px;
+	margin:15px 25px 10px 25px;
+	clear:both;
+	border-bottom: 6px solid #0099FF;
+	}
+#header a{
+	text-decoration:none;
+	color:#333;
+	}
+#portfolio{
+	height:61px;
+	width:409px;
+	margin-right:100px;
+	float:left;
+	padding:8px;
+	}
+
+#ButtonBg{
+	background:url(../images/ButtonBg.png); 
+	float:left;
+	height:65px;
+	width:65px;
+	margin-left:10px;
+	cursor:pointer;
+	}
+	
+#PortfolioName{
+	height:61px;
+	width:247px;
+	float:left;
+	border-right:3px solid #DDD;
+	}
+
+#PortfolioButton{
+	height:61px;
+	width:150px;
+	float:right;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	color:#333333;
+	}	
+	
+#OtherButton{
+	height:61px;
+	width:409px;
+	margin-left:100px;
+	float:right;
+	padding:8px;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	color:#333333;
+	}
+#LinkForword{
+	height:61px;
+	width:300px;
+	float:left;
+	}
+	
+#BackButton{
+	height:61px;
+	width:80px;
+	float:right;
+	margin-left:20px;
+	}
+/* Side Bar */
+#aside{
+	min-height:800px;
+	width:250px;
+	float:left;
+	margin-left:25px;
+	}
+	
+#picture{
+	background-color:#FDFDFD;
+	min-height:335px;
+	width:250px;
+	border:1px solid #DDD;
+	border-radius:10px;
+	-moz-border-radius:10px; 
+	}
+	
+.active{
+	background:url(../images/ImageAndVideoBg1.png) no-repeat;
+	height:48px;
+	width:115px;
+	padding:5px 0 5px 10px;
+	margin-bottom:0px;
+	float:left;
+	text-align:left;
+	color:#FFF;
+	font-size:13px;
+	font-weight:bold;
+	cursor:pointer;
+	}
+	
+.inactive{
+	background:#E4E4E4;
+	height:25px;
+	width:115px;
+	padding:5px;
+	float:left;
+	margin-bottom:0px;
+	cursor:pointer;
+	font-size:13px;
+	font-weight:bold;
+	color:#444;
+	}		
+.image{
+	background:#F2F2F2;
+	height:205px;
+	width:200px;
+	margin:0 auto;
+	padding-top:20px;
+	border-radius:10px;
+	-moz-border-radius:10px; 
+	}
+
+.edit{
+	height:36px;
+	width:36px;
+	float:right;
+	background:url(../images/EditBg.png) no-repeat;
+	margin-right:2px;
+	margin-top:10px;
+	padding-top:7px;
+	cursor:pointer;
+	}
+	
+#AllowedFileFormat{
+	width:240px;
+	height:15px;
+	padding:5px;
+	border:1px solid #ddd;
+	border-left:0px;
+	border-right:0px;
+	text-align:left;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	color:#666666;
+	}
+	
+.arrow{
+	float:left; 
+	width:16px;
+	height:30px;
+	padding-top:30px;
+	text-align:left;
+	cursor:pointer;
+	}
+	
+.ImageAndVideoGellary{
+	width:246px;
+	min-height:71px;
+	border-top:1px solid #ddd;
+	padding-top:5px;
+	padding-left:2px;
+	padding-right:2px;
+	}
+	
+.SortGellary{
+	float:left;
+	height:66px;
+	width:44px;
+	border:2px solid #C00;
+	margin:0 3px 4px 0; 
+	cursor:pointer;
+	}
+#ThumbNail{
+	background:silver;
+	width:44px;
+	height:20px;
+	margin-left:-2px;
+	border-right:2px solid #C00;
+	border-left:2px solid #C00;
+	}
+	
+#AllowedDocumentFormat{
+	float:left;
+	width:510px;
+	height:20px;
+	border:1px solid #DDD;
+	clear:both;
+	margin-left:15px;
+	margin-top:5px;
+	text-align:left;
+	padding-left:5px;
+	}
+	
+#AllowedLink{
+	float:left;
+	width:410px;
+	height:20px;
+	border:1px solid #DDD;
+	clear:both;
+	margin-left:18px;
+	margin-top:5px;
+	text-align:left;
+	padding-left:5px;
+	}
+	
+#area{
+	background-color:#FDFDFD;
+	min-height:500px;
+	width:240px;
+	border:1px solid #DDD;
+	margin-top:50px;
+	margin-bottom:60px;
+	padding:5px;
+	border-radius:10px;
+	-moz-border-radius:10px; 
+	}
+#AreaHeader{
+	height:30px;
+	width:240px;
+	}
+	
+#AreaHead{
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	font-style:normal;
+	text-decoration:none;
+	color:#666666;
+	margin-right:100px;
+	}
+	
+#navigation{
+	float:left;
+	width:245px;
+	min-height:120px;
+	text-align:left;
+	}
+#navigation ul {
+	margin:10px 0 0 5px; 
+	padding:0; 
+	border-top:1px solid #ECECEC;
+	}
+#navigation li {
+	list-style:none;
+	border-bottom:1px solid #CCC;
+	}
+#navigation li {
+	height:25px;
+	color:#555; 
+	text-decoration:none;
+	padding:3px; 
+	display:block;
+	font-size:12px;
+	}
+#navigation li:hover {
+	background-color:#DDD;
+	}
+
+	
+#NaviCheck{
+	float:right;
+	margin-right:10px;
+	height:25px;
+	width:20px;
+	}
+
+#MenuLink{
+	height:25px;
+	color:#555; 
+	text-decoration:none;
+	padding:3px; 
+	display:block;
+	font-size:13px;
+	}
+	
+#TemplateLink{
+	height:25px;
+	width:160px;
+	color:#555; 
+	text-decoration:none;
+	padding:3px; 
+	display:block;
+	font-size:13px;
+	float:left;
+	}
+	
+#SelectTemplate{
+	float:left;
+	margin-right:5px;
+	height:30px;
+	width:215px;
+	background:#EDFBFF;
+	border-radius:8px;
+	color:#555;
+
+}
+
+.SelectTemplate{
+	float:left;
+	margin-right:4px;
+	margin-left:1px;
+	height:30px;
+	width:214px;
+	background:#EDFBFF;
+	border-radius:8px;
+	color:#555;
+
+}
+
+	
+/* Container */	
+#container{
+	min-height:1000px;
+	width:780px;
+	float:right;
+	margin-right:25px;
+	margin-left:20px;
+	}
+	
+#profile{
+	background-color:#F8F8F8;
+	width:764px;
+	min-height:75px;
+	border:1px solid #DDD;
+	padding:7px;
+	border-radius:15px;
+	-moz-border-radius:15px; 
+	}
+	
+#name{
+	float:left;
+	width:270px;
+	padding-bottom:5px;
+	}
+	
+#address{
+	float:left;
+	width:200px;
+	min-height:65px;
+	border-right:1px dotted #CBCBE4;
+	padding-bottom:5px;
+	font-family:Arial;
+	font-size:11px;
+	font-style:normal;
+	text-decoration:none;
+	color:#666666;
+	}
+	
+#contact{
+	float:left;
+	width:281px;
+	padding-bottom:5px;
+	font-family:Arial;
+	font-size:11px;
+	font-style:normal;
+	text-decoration:none;
+	color:#666666;
+	margin-left:10px;
+	}
+	
+#summary{
+	background-color:#FDFDFD;
+	min-height:200px;
+	width:780px;
+	border:1px solid #DDD;
+	margin-top:10px;
+	margin-bottom:40px;
+	border-radius:10px;
+	-moz-border-radius:10px; 
+	}
+	
+#SummaryHeader{
+	height:30px;
+	background:#F2F2F2;
+	margin-top:0px;
+	margin-bottom:10px;
+	text-align:left;
+	padding:8px;
+	}
+
+#MyProfile{
+	background-color:#F8F8F8;
+	width:764px;
+	height:37px;
+	border:1px solid #DDD;
+	padding:6px 8px 6px 8px;
+	margin-bottom:7px;
+	border-radius:12px;
+	-moz-border-radius:12px; 
+	}	
+	
+#WorkHistory{
+	background-color:#FDFDFD;
+	width:780px;
+	min-height:270px;
+	border:1px solid #DDD;
+	margin-top:20px;
+	margin-bottom:40px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	}
+	
+#ProfileHeader{
+	height:30px;
+	width:760px;
+	background:#FFF;
+	margin:0px 2px 0px 2px;
+	text-align:left;
+	padding:8px;
+	}
+	
+#ProfileBorder{
+	height:8px;
+	width:780px;
+	background: url(../images/BorderStyle.png) no-repeat;
+	vertical-align:top;
+	margin-top:0px;
+	margin-bottom:10px;
+	}
+
+.DisplayRecords{
+	width:760px;
+	min-height:150px;
+	border-bottom:1px solid #DDD;
+	margin:5px 10px 10px 10px;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:normal;
+	color:#000;
+	text-align:left;
+	}
+#TrainingDate{
+	height:12px;
+	padding:5px;
+	width:670px;
+	text-align:right;
+	margin-right:36px;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	font-style:normal;
+	text-decoration:none;
+	color:#990000;
+	float:right;
+	clear:both;
+	}
+#WorkHistoryTitle{
+	float:left;
+	width:680px;
+	font-size:14px;
+	font-weight:bold;
+	font-style:normal;
+	}
+	
+#WorkHistoryEdit{
+	width:70px;
+	float:right;
+	text-align:left;
+	padding-left:4px;
+	}
+#WorkHistoryTitle a{
+	color:#BC9508
+	}	
+	
+#TrainingTitle{
+	float:left;
+	width:380px;
+	font-size:14px;
+	font-weight:bold;
+	font-style:normal;
+	color:#0099FF;
+	}
+#TrainingTitle a{
+	color:#0099FF
+	
+	}	
+
+#WorkHistoryPosition{
+	width:490px;
+	float:left;
+	text-align:left;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	font-style:normal;
+	text-decoration:none;
+	color:#333333;
+	}
+#WorkHistoyDate{
+	width:240px;
+	float:left;
+	margin-right:18px;
+	margin-left:5px;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	font-style:normal;
+	text-decoration:none;
+	color:#990000;
+	text-align:left;
+	}
+	
+#SmallEdit{
+	float:right;
+	height:25px;
+	width:440px;
+	text-align:left;
+	background:url(../images/SmallEditBg.png) no-repeat;
+	padding-left:6px;
+	padding-top:4px;
+	}
+
+#Duration{
+	float:right;
+	height:28px;
+	width:270px;
+	margin-top:4px;
+	margin-bottom:4px;
+	text-align:right;
+	color:#990000;
+	font-family:Arial;
+	font-size:13px;
+	}	
+	
+#description{
+	min-height:20px;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	color:#333333;
+	margin-top:7px; 
+	clear:both;
+	}
+	
+#ExampleLink{
+	margin-bottom:4px;
+	margin-top:1px;
+	}
+#ExampleLink a{
+	font-family:Arial;
+	font-size:13px;
+	font-weight:normal;
+	font-style:italic;
+	color:#0000FF;
+	}
+	
+.ButtonHideShow{
+	float:left;
+	width:160px;
+	height:24px;
+	background:#DAEDFF;
+	border-radius:10px;
+	border:1px solid #0099FF;
+	color:#555;
+	font-weight:bold;
+	cursor:pointer;
+	text-align:left;
+	padding-left:4px;
+	padding-top:2px;
+	}
+
+#ViewCourseDesc{
+	text-align:left;
+	min-height:380px;
+	width:auto; 
+	background:#F6F9FE;
+	padding:5px;
+	border:1px solid #777;
+	border-radius:12px;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	color:#333333;
+	}
+#ViewMore{
+	color:#C33;
+	cursor:pointer;
+	font-weight:bold;
+	font-size:11px;
+	}
+#AddCourse{
+	float:right;
+	width:100px;
+	}	
+	
+.Display{
+	display:none;
+	width:740px;
+	min-height:200px;
+	margin-bottom:8px;
+	padding:5px;
+	text-align:center;
+	background:#FFF;
+	border:solid 3px #999999;
+	border-radius:12px;
+	-moz-border-radius:12px; 
+	font-family:Arial;
+	font-size:13px;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	color:#333333;
+	}	
+
+	
+.DocumentView{
+	width:740px;
+	min-height:400px;
+	margin-bottom:8px;
+	padding:5px;
+	text-align:center;
+	background:#FFF;
+	border:solid 2px #999999;
+	border-radius:12px;
+	-moz-border-radius:12px; 
+
+	}
+	
+#CourseHeading{
+	height:35px;
+	width:740px;
+	margin-bottom:5px;
+	background:#999999;
+	color:#FFF;
+	font-weight:bold;
+	font-size:14px;
+	}
+	
+#HeadingField{
+	height:30px;
+	padding-top:5px;
+	float:left;
+	border-right:1px solid #FFF;
+	}
+	
+#CourseDetailFields{
+	margin-bottom:15px;
+	min-height:50px;
+	width:740px;
+	clear:both;
+	}
+
+#RecordField{
+	padding-top:10px;
+	min-height:45px;
+	float:left;
+	background:#F6F9FE;
+	border-radius:10px;
+	border:1px solid #DDD;
+	}
+	
+#CustomArea{
+	width:109px; 
+	min-height:45px;
+	padding-top:10px;
+	float:right; 
+	background:#F2F2F2;
+	border:1px solid #DDD;
+	}
+	
+#CourseDetailBg{
+	background:url(../images/CourseBg.png) no-repeat;
+	height:31px;
+	width:31px;
+	padding-top:8px;
+	cursor:pointer;
+	}
+	
+#CustomDesc{
+	text-align:left;
+	width:350px;
+	margin-left:6px;
+	margin-right:6px;
+	margin-bottom:5px;
+	}
+
+/* Site Text Decoration */
+.FeaturedPhpto{
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	font-style:normal;
+	text-decoration:none;
+	color:#666666;
+	}
+.PortfolioName{
+	font-family:Arial;
+	font-size:20px;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	color:#666666;
+	}
+
+.ManagePortfolios{
+	margin-top:20px;
+	margin-left:15px;
+	text-align:left;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	color:#666666;
+	}
+	
+#welcome{
+	height:61px;
+	width:700px; 
+	float:right;
+	text-align:right;
+	margin:10px 50px 0 0;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	color:#333333
+	}
+	
+.TextName{
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	font-style:normal;
+	text-decoration:none;
+	color:#666666;
+	}
+	
+.TextSummaryHead{
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	font-style:normal;
+	text-decoration:none;
+	color:#666666;
+	}
+.TextSummary{
+	font-family:Arial;
+	font-size:12px;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	color:#666666;
+	margin-left:10px;
+	margin-bottom:7px;
+	}	
+.TextMyProfile{
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	font-style:normal;
+	text-decoration:none;
+	color:#0066FF;
+	text-align:left;
+	}
+.TextTheWorkHistory{
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	font-style:normal;
+	text-decoration:none;
+	color:#1C62BF;
+	}
+
+#ViewHistoryContainer{
+	min-height:200px;
+	width:930px;
+	}
+	
+#ViewHistory{
+	height:40px;
+	width:930px;
+	background:#ECF1EE;
+	border:1px solid #999;
+	font-size:13px;
+	font-weight:bold;
+	font-family:arial;
+	color:#666;
+	}
+#ViewHistoryHeaders{
+	float:left;
+	height:40px;
+	width:210px;
+	border-right:1px solid #999;
+	}
+#HistoryHeaderTest{
+	margin-top:10px;
+	height:20px;
+	}
+	
+#ViewHistoryRecords{
+	height:35px;
+	width:930px;
+	border:1px solid #999;
+	}
+#ViewHistoryData{
+	float:left;
+	height:35px;
+	width:210px;
+	border-right:1px solid #999;
+	}
+
+/* Manage Portfolios */
+
+#search{
+	background:#F9F9F9;
+	height:73px;
+	width:1050px;
+	margin:25px 25px 10px 25px;
+	clear:both;
+	border:1px solid #DDD;
+	border-radius:10px;
+	-moz-border-radius:10px; 
+	}
+	
+#SearchWithBox{
+	float:left;
+	height:46px;
+	width:730px;
+	margin-top:13px;
+
+	}
+#SearchText{
+	float:left;
+	width:76px;
+	height:30px;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	color:#666666;
+	padding-top:9px;
+	}
+	
+.SearchBox{
+	padding:3px;
+	height:27px;
+	border:1px solid #DDD; 
+	border-radius:10px;
+	-moz-border-radius:10px;
+	}
+.SubmitButton{
+	background:url(../images/SubmitButtonBG.png) no-repeat;
+	height:41px;
+	width:126px;
+	border:none;
+	}	
+.button{
+	background:url(../images/SubmitButtonBG.png);
+	height:31px;
+	width:126px;
+	padding-top:12px;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	font-style:normal;
+	text-decoration:none;
+	color:#555;
+	cursor:pointer;
+	}
+.	
+#PortfolioWithPagination{
+	background:silver;
+	width:1060px;
+	margin-top:7px;
+	}
+		
+#PortfolioList{
+	float:left;
+	width:932px;
+	padding:15px;
+	margin:5px 25px 10px 25px;
+	border:1px solid #DDD;
+	border-radius:10px;
+	-moz-border-radius:10px; 
+	}
+#ButtonBG{
+	background:url(../images/ButtonBg.png) no-repeat;
+	float:left;
+	height:65px;
+	width:70px;
+	margin-left:5px;
+	Padding-top:8px;
+	cursor:pointer;
+	}	
+	
+#ButtonBG a{
+	text-decoration:none;
+	color:#000;
+	}	
+#ButtonBGDelete{
+	background:url(../images/ButtonBg.png) no-repeat;
+	float:right;
+	height:65px;
+	width:65px;
+	Padding-top:12px;
+	}
+#ButtonManageProfile{
+	float:left;
+	height:80px;
+	width:240px;
+	font-size:12px;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	color:#333333;
+
+	}
+	
+.PortfolioName{
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	font-style:normal;
+	text-decoration:none;
+	color:#666666;
+	margin-bottom:10px;
+	}
+.PortfolioDescription{
+	font-family:Arial;
+	font-size:12px;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	color:#666666;
+	margin-bottom:12px;
+	}
+.PortfolioViewDetail{
+	font-family:Arial;
+	font-size:13px;
+	font-weight:normal;
+	font-style:italic;
+	}
+.PortfolioViewDetail a{
+	color:#FF9900
+	}
+	
+/* Profile Template */
+
+.New{
+	background:url(../images/SubmitButton.png) no-repeat;
+	height:26px;
+	width:66px;
+	padding-top:5px;
+	cursor:pointer;
+	}
+
+/* All Message */	
+#ShortMessage {
+	color:#D00;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:15px;
+	}
+
+
+	
+/*  Admin page */
+#AdminBody{
+	height:500px;
+	width:450px;
+	background:#FFF;
+	margin:auto;
+	}
+
+#AdminPanel{
+	height:480px;
+	width:430px;
+	margin-top:40px;
+	background:#ddd;
+	border:1px solid #DDD;
+	border-radius:13px;
+	-moz-border-radius:13px;
+	box-shadow: 0 0 5px 5px #888;
+	-moz-box-shadow: 0 0 5px 5px #888;
+	-webkit-box-shadow: 0 0 5px 5px#888;
+	}
+
+#AdminHead{
+	height:30px;
+	width:430px;
+	background:#888;
+	border-top-left-radius:13px;
+	-moz-border-top-left-radius:13px;
+	border-top-right-radius:13px;
+	-moz-border-top-right-radius:13px;
+	color:#fff;
+	font-size:20px;
+	padding-top:10px;
+	border-bottom:3px solid #EBF8A4;
+	font-weight:bold;
+	font-family:arial;
+	}
+	
+#AdminErrorMsg{
+	color:#C00;
+	margin-top:20px;
+	height:20px;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	}
+	
+#AdminForm{
+	height:200px;
+	width:370px;
+	float:left;
+	margin-left:30px;
+	margin-right:30px;
+	margin-top:20px;
+	}
+	
+#EditAdmin{
+	float:left;
+}	
+	
+table,td{
+	text-align:left;
+	font-family:arial;
+	font-size:12px;
+	color:#555;
+	}
+	

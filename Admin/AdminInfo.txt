@@ -1,0 +1,3 @@
+URL=http://themexdemo.com/mizan/eProfile/Admin/index.php
+Admin name=Admin eProfile
+Admin password=Password
